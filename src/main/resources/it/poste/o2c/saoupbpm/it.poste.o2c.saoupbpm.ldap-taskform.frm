@@ -1,0 +1,1 @@
+{"id":"993d5b01-eb3f-491b-bded-6f4d4d5e396d","name":"it.poste.o2c.saoupbpm.ldap-taskform.frm","model":{"processName":"ldap","processId":"it.poste.o2c.saoupbpm.ldap","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.process.BusinessProcessFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
