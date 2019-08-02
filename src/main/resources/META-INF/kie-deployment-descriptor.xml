@@ -9,20 +9,7 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler(null,"-1",null,null,true);</identifier>
-            <parameters/>
-            <name>Email</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new it.poste.o2c.sa.bpm.shared.wih.ServiceActivatorRESTWorkItemHandler(classLoader);</identifier>
-            <parameters/>
-            <name>Rest</name>
-        </work-item-handler>
-    </work-item-handlers>
+    <work-item-handlers/>
     <environment-entries/>
     <configurations/>
     <required-roles/>
