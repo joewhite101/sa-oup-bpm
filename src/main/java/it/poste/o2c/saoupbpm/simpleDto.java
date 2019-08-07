@@ -6,12 +6,44 @@ package it.poste.o2c.saoupbpm;
 
 public class simpleDto implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public simpleDto() {
-    }
+	private java.lang.String f1;
+	private java.lang.String f2;
+	private java.lang.String f3;
 
+	public simpleDto() {
+	}
 
+	public java.lang.String getF1() {
+		return this.f1;
+	}
 
+	public void setF1(java.lang.String f1) {
+		this.f1 = f1;
+	}
+
+	public java.lang.String getF2() {
+		return this.f2;
+	}
+
+	public void setF2(java.lang.String f2) {
+		this.f2 = f2;
+	}
+
+	public java.lang.String getF3() {
+		return this.f3;
+	}
+
+	public void setF3(java.lang.String f3) {
+		this.f3 = f3;
+	}
+
+	public simpleDto(java.lang.String f1, java.lang.String f2,
+			java.lang.String f3) {
+		this.f1 = f1;
+		this.f2 = f2;
+		this.f3 = f3;
+	}
 
 }
