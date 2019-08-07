@@ -45,5 +45,10 @@ public class SimpleDto implements java.io.Serializable {
 		this.f2 = f2;
 		this.f3 = f3;
 	}
+	
+	@Override
+	public String toString() {
+		return "SimpleDto [f1=" + f1 + ", f2=" + f2 + ", f3=" + f3 + "]";
+	}
 
 }
