@@ -6,12 +6,23 @@ package it.poste.o2c.saoupbpm;
 
 public class inputList implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public inputList() {
-    }
+	private java.util.List<java.lang.String> items;
 
+	public inputList() {
+	}
 
+	public java.util.List<java.lang.String> getItems() {
+		return this.items;
+	}
 
+	public void setItems(java.util.List<java.lang.String> items) {
+		this.items = items;
+	}
+
+	public inputList(java.util.List<java.lang.String> items) {
+		this.items = items;
+	}
 
 }
